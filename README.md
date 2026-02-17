@@ -27,6 +27,8 @@ WHERE age > 60 AND department = 'Oncology';
 
 Beyond the numbers, this analysis provides critical insights into the patient population and hospital resource allocation:
 
-1. Significant Senior Demographic: The 221 oncology patients over age 60 represent a substantial portion (22.1%) of the total patient load. This suggests a need for specialized geriatric-oncology resources and age-friendly navigation within the hospital.
-2. Resource Allocation:With such a high volume of senior oncology patients, the hospital may need to prioritize mobility assistance, integrated pharmacy consultations for polypharmacy (common in seniors), and social work support for long-term care planning.
-3. Data Reliability:By achieving identical results (221) across SQL, Python, and R, we have established a "Gold Standard" dataset. This high level of data integrity ensures that any follow-up medical or financial decisions are based on verified, accurate information.
+Significant Senior Demographic: The 221 oncology patients over age 60 represent 22.1% of the total patient load. This highlights a clear need for specialized geriatric-oncology resources and age-friendly facility navigation.
+
+Strategic Resource Allocation: With nearly a quarter of the population being seniors in a high-intensity department, the data supports prioritizing mobility assistance, integrated pharmacy consultations, and social work support for long-term care planning.
+
+Cross-Platform Reliability: By achieving identical results (221) across SQL, Python, and R, we have established a "Gold Standard" dataset. This high level of data integrity ensures that any subsequent medical or financial decisions are based on verified, accurate information.
