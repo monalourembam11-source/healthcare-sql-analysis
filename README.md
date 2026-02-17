@@ -18,3 +18,4 @@ SELECT count(*)
 FROM "healthcare_patient_journey.csv"
 WHERE age > 60
 AND department = 'Oncology';
+![Department Analysis Chart](department_chart.png)
