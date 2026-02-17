@@ -23,8 +23,7 @@ SELECT count(*)
 FROM "healthcare_patient_journey.csv"
 WHERE age > 60 AND department = 'Oncology';
 
-## 💡 Executive Summary: What the Data Tells Us
-
+💡 Executive Summary: What the Data Tells Us
 Beyond the numbers, this analysis provides critical insights into the patient population and hospital resource allocation:
 
 Significant Senior Demographic: The 221 oncology patients over age 60 represent 22.1% of the total patient load. This highlights a clear need for specialized geriatric-oncology resources and age-friendly facility navigation.
