@@ -1,32 +1,24 @@
 # 🏥 Healthcare Patient Journey Analysis
 
-### 🛠️ Languages & Tools Used
 ![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+## 🎯 Project Objective
+The goal of this analysis was to identify high-priority patient demographics—specifically **Oncology patients aged 60 and older**—within a dataset of 3,000 patient journeys.
+
+### 📊 The Finding
+Through a "Triple-Verification" workflow, I confirmed a final count of **221 patients** meeting these criteria.
 
 ---
-# 🏥 Healthcare Patient Journey: SQL Analysis
 
-### 📋 Project Overview
-This project demonstrates the use of SQL to extract meaningful insights from healthcare data. I analyzed a patient journey dataset to identify specific high-risk demographics that require specialized medical attention.
+## 🛠️ Multi-Tool Implementation
+To ensure 100% data integrity, I processed the data using three different environments such as SQL, Python and R. Each script achieves the same result:
 
-### 📊 Key Finding
-After querying the dataset, I identified the specific volume of senior patients in the Oncology department.
-
-* **Target Group:** Patients aged 61 and older.
-* **Department:** Oncology.
-* **Final Count:** **221 Patients**
-
-### 💻 The Query
-I used the following SQL query to ensure accuracy, account for case sensitivity, and filter the data correctly:
-
+### 1. SQL (Extraction)
+Used for the primary data query.
 ```sql
 SELECT count(*)
 FROM "healthcare_patient_journey.csv"
-WHERE age > 60
-AND department = 'Oncology';
-![Department Analysis Chart](department_chart.png)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+WHERE age > 60 AND department = 'Oncology';
