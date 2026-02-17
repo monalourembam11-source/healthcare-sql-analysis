@@ -25,9 +25,10 @@ Strategic Resource Allocation: With nearly a quarter of the population being sen
 
 Cross-Platform Reliability: By achieving identical results (221) across SQL, Python, and R, we have established a "Gold Standard" dataset. This high level of data integrity ensures that any subsequent medical or financial decisions are based on verified, accurate information.
 
+---
 ### 1. SQL (Extraction)
 Used for the primary data query.
-```sql
+sql
 SELECT count(*)
 FROM "healthcare_patient_journey.csv"
 WHERE age > 60 AND department = 'Oncology';
