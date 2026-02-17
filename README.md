@@ -22,6 +22,7 @@ Used for the primary data query.
 SELECT count(*)
 FROM "healthcare_patient_journey.csv"
 WHERE age > 60 AND department = 'Oncology';
+
 ## 💡 Executive Summary: What the Data Tells Us
 
 Beyond the numbers, this analysis provides critical insights into the patient population and hospital resource allocation:
