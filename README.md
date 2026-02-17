@@ -1,7 +1,13 @@
+# 🏥 Healthcare Patient Journey Analysis
+
+### 🛠️ Languages & Tools Used
 ![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Github](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+---
 # 🏥 Healthcare Patient Journey: SQL Analysis
 
 ### 📋 Project Overview
@@ -23,3 +29,4 @@ FROM "healthcare_patient_journey.csv"
 WHERE age > 60
 AND department = 'Oncology';
 ![Department Analysis Chart](department_chart.png)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
